@@ -7,27 +7,21 @@ body, html, * {
 
 }
 
-body{
-
-    background-color: black;
-
-}
-
 .container{
 
-margin:1remauto
-display flex
-flex-wrap wrap
-justify conten space around
-width 80vw
-background color brown
-align items center
+    margin: 1rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80vw;
+    background-color: brown;
+    align-items: center;
 
 }
 
 .card{
 
-    height: 50vh;
+    height: 27vh;
     width: 27vw;
     background-color: rgba(65, 65, 65, 0.3);
     display: flex;
@@ -61,5 +55,11 @@ align items center
     justify-content: space-around;
     box-shadow: 10px 5px 10px#ffffff;
     transition: 500ms;  
+
+}
+
+.card-image {
+
+    width: 20px
 
 }
